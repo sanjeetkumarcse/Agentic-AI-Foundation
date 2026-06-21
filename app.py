@@ -8,6 +8,8 @@ from langchain_core.messages import HumanMessage, AIMessage
 load_dotenv()
 
 app = Flask(__name__)
+
+
 app.secret_key = "my-secret-key"
 
 # Azure OpenAI Model
